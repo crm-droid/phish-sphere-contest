@@ -17,7 +17,7 @@ displayed on a public website.
 - Gemini (Google, Gemini 1.5 Flash)
 - Perplexity AI
 - Grok (xAI)
-- Meta AI (Llama)
+- Mistral AI
 
 ## How predictions are collected
 Each model receives an identical prompt and returns predictions in CSV format.

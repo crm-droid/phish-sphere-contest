@@ -35,7 +35,7 @@ const CANONICAL_MODELS = new Set([
   'gemini',
   'perplexity',
   'grok',
-  'metaai',
+  'mistral',
 ]);
 
 // ---------- CSV parsing ----------

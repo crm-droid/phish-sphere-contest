@@ -7,7 +7,9 @@
       "Bash(mv weekend1_sonnet46.csv weekend1_claude.csv)",
       "Bash(mv weekend1_geminiThinking.csv weekend1_gemini.csv)",
       "Bash(mv weekend1_mistral.csv weekend1_metaai.csv)",
-      "Bash(node -e 'const s=require\\(\"./data/scores/scores.json\"\\); for \\(const m of s.leaderboard\\) console.log\\(m.model.padEnd\\(12\\), \"total:\", m.totalPoints, \" correct:\", m.correctCount+\"/\"+m.totalPredictions\\)')"
+      "Bash(node -e 'const s=require\\(\"./data/scores/scores.json\"\\); for \\(const m of s.leaderboard\\) console.log\\(m.model.padEnd\\(12\\), \"total:\", m.totalPoints, \" correct:\", m.correctCount+\"/\"+m.totalPredictions\\)')",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" \"http://localhost:3000/about\")",
+      "Bash(node -e 'const s=require\\(\"./data/scores/scores.json\"\\); for \\(const m of s.leaderboard\\) console.log\\(m.model.padEnd\\(12\\), m.correctCount+\"/\"+m.totalPredictions\\)')"
     ]
   }
 }
