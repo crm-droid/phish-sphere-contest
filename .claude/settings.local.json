@@ -9,7 +9,9 @@
       "Bash(mv weekend1_mistral.csv weekend1_metaai.csv)",
       "Bash(node -e 'const s=require\\(\"./data/scores/scores.json\"\\); for \\(const m of s.leaderboard\\) console.log\\(m.model.padEnd\\(12\\), \"total:\", m.totalPoints, \" correct:\", m.correctCount+\"/\"+m.totalPredictions\\)')",
       "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" \"http://localhost:3000/about\")",
-      "Bash(node -e 'const s=require\\(\"./data/scores/scores.json\"\\); for \\(const m of s.leaderboard\\) console.log\\(m.model.padEnd\\(12\\), m.correctCount+\"/\"+m.totalPredictions\\)')"
+      "Bash(node -e 'const s=require\\(\"./data/scores/scores.json\"\\); for \\(const m of s.leaderboard\\) console.log\\(m.model.padEnd\\(12\\), m.correctCount+\"/\"+m.totalPredictions\\)')",
+      "Bash(node -e 'const s=require\\(\"./data/scores/scores.json\"\\); console.log\\(\"generatedAt:\", s.generatedAt\\); console.log\\(\"hasData:\", s.hasData\\); console.log\\(\"leaderboard rows:\", s.leaderboard.length\\); console.log\\(\"shows:\"\\); for \\(const [n, sh] of Object.entries\\(s.shows\\)\\) console.log\\(\"  show\", n, \"→\", sh.showDate, \"| scored:\", sh.scored, \"| status:\", sh.fetchStatus, \"| url:\", sh.phishNetUrl\\); console.log\\(\"\\\\nSample prediction object \\(should have NO actual song titles\\):\"\\); console.log\\(JSON.stringify\\(s.leaderboard[0].byShow[\"1\"].predictions[0], null, 2\\)\\);')",
+      "Bash(curl -s \"http://localhost:3001/shows/1\")"
     ]
   }
 }

@@ -98,20 +98,25 @@ export default function WeekendPage({ params }) {
       <h2>Shows in this weekend</h2>
       <div className="grid">
         {shows.map((s) => {
-          const actual = scores.shows?.[s.number];
-          const hasActual = actual && actual.actualSongs?.length > 0;
+          const meta = scores.shows?.[s.number];
+          const scored = !!meta?.scored;
+          const phishNetUrl = meta?.phishNetUrl || `https://phish.net/setlists/?d=${s.date}`;
           return (
-            <Link key={s.number} href={`/shows/${s.number}`} style={{ textDecoration: 'none' }}>
-              <div className="card" style={{ cursor: 'pointer' }}>
-                <div style={{ fontSize: 12, color: 'var(--muted)' }}>
-                  {s.day} {s.date}
-                </div>
-                <div style={{ fontSize: 18, fontWeight: 600 }}>Show {s.number}</div>
-                <div className="pill" style={{ marginTop: 8 }}>
-                  {hasActual ? `${actual.actualSongs.length} songs` : 'No setlist yet'}
-                </div>
+            <div key={s.number} className="card">
+              <div style={{ fontSize: 12, color: 'var(--muted)' }}>
+                {s.day} {s.date}
               </div>
-            </Link>
+              <div style={{ fontSize: 18, fontWeight: 600 }}>Show {s.number}</div>
+              <div className="pill" style={{ marginTop: 8 }}>
+                {scored ? 'Scored' : 'Not scored yet'}
+              </div>
+              <div style={{ marginTop: 12, display: 'flex', gap: 12, flexWrap: 'wrap' }}>
+                <Link href={`/shows/${s.number}`}>Model scores →</Link>
+                <a href={phishNetUrl} target="_blank" rel="noopener noreferrer">
+                  View Setlist on phish.net →
+                </a>
+              </div>
+            </div>
           );
         })}
       </div>
