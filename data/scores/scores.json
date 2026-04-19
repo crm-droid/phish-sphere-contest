@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-04-18T19:09:23.265Z",
+  "generatedAt": "2026-04-19T10:20:38.187Z",
   "leaderboard": [
     {
       "model": "claude",
-      "totalPoints": 142.67,
-      "correctCount": 10,
+      "totalPoints": 179.67,
+      "correctCount": 13,
       "totalPredictions": 32,
-      "correctPercent": 31.25,
+      "correctPercent": 40.63,
       "byWeekend": {
         "1": {
-          "points": 142.67,
-          "correct": 10,
+          "points": 179.67,
+          "correct": 13,
           "total": 32
         }
       },
@@ -345,24 +345,24 @@
           ]
         },
         "3": {
-          "points": 0,
-          "correct": 0,
+          "points": 37,
+          "correct": 3,
           "total": 11,
           "predictions": [
             {
               "song": "Buried Alive",
               "confidence": 3,
               "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
+              "correct": true,
+              "points": 15,
+              "basePoints": 15,
               "bonuses": {
-                "set": 0,
-                "opener": 0,
+                "set": 2,
+                "opener": 3,
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Wolfman's Brother",
@@ -377,7 +377,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Fluffhead",
@@ -392,22 +392,22 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Sigma Oasis",
               "confidence": 3,
               "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
+              "correct": true,
+              "points": 12,
+              "basePoints": 12,
               "bonuses": {
-                "set": 0,
+                "set": 2,
                 "opener": 0,
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Blaze On",
@@ -422,7 +422,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Fuego",
@@ -437,22 +437,22 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Tweezer Reprise",
               "confidence": 3,
               "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
+              "correct": true,
+              "points": 10,
+              "basePoints": 10,
               "bonuses": {
                 "set": 0,
                 "opener": 0,
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Theme from the Bottom",
@@ -467,7 +467,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Piper",
@@ -482,7 +482,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Character Zero",
@@ -497,7 +497,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Good Times Bad Times",
@@ -512,7 +512,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             }
           ]
         }
@@ -520,14 +520,14 @@
     },
     {
       "model": "grok",
-      "totalPoints": 84,
-      "correctCount": 6,
+      "totalPoints": 112,
+      "correctCount": 8,
       "totalPredictions": 44,
-      "correctPercent": 13.64,
+      "correctPercent": 18.18,
       "byWeekend": {
         "1": {
-          "points": 84,
-          "correct": 6,
+          "points": 112,
+          "correct": 8,
           "total": 44
         }
       },
@@ -1027,8 +1027,8 @@
           ]
         },
         "3": {
-          "points": 0,
-          "correct": 0,
+          "points": 28,
+          "correct": 2,
           "total": 12,
           "predictions": [
             {
@@ -1044,7 +1044,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Down with Disease",
@@ -1059,7 +1059,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Blaze On",
@@ -1074,7 +1074,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "The Moma Dance",
@@ -1089,7 +1089,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Prince Caspian",
@@ -1104,37 +1104,37 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "AC/DC Bag",
               "confidence": 3,
               "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
+              "correct": true,
+              "points": 12,
+              "basePoints": 12,
               "bonuses": {
-                "set": 0,
+                "set": 2,
                 "opener": 0,
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Reba",
               "confidence": 4,
               "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
+              "correct": true,
+              "points": 16,
+              "basePoints": 12,
               "bonuses": {
-                "set": 0,
+                "set": 2,
                 "opener": 0,
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Farmhouse",
@@ -1149,7 +1149,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Piper",
@@ -1164,7 +1164,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Light",
@@ -1179,7 +1179,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "David Bowie",
@@ -1194,7 +1194,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Wilson",
@@ -1209,7 +1209,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             }
           ]
         }
@@ -1217,14 +1217,14 @@
     },
     {
       "model": "gemini",
-      "totalPoints": 69.33,
-      "correctCount": 4,
+      "totalPoints": 89.33,
+      "correctCount": 5,
       "totalPredictions": 29,
-      "correctPercent": 13.79,
+      "correctPercent": 17.24,
       "byWeekend": {
         "1": {
-          "points": 69.33,
-          "correct": 4,
+          "points": 89.33,
+          "correct": 5,
           "total": 29
         }
       },
@@ -1529,8 +1529,8 @@
           ]
         },
         "3": {
-          "points": 0,
-          "correct": 0,
+          "points": 20,
+          "correct": 1,
           "total": 10,
           "predictions": [
             {
@@ -1546,7 +1546,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Wilson",
@@ -1561,7 +1561,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Chalk Dust Torture",
@@ -1576,7 +1576,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Divided Sky",
@@ -1591,7 +1591,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Mike's Song",
@@ -1606,7 +1606,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "I Am Hydrogen",
@@ -1621,7 +1621,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Weekapaug Groove",
@@ -1636,7 +1636,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Suzy Greenberg",
@@ -1651,22 +1651,22 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Run Like an Antelope",
               "confidence": 4,
               "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
+              "correct": true,
+              "points": 20,
+              "basePoints": 15,
               "bonuses": {
-                "set": 0,
+                "set": 2,
                 "opener": 0,
-                "closer": 0,
+                "closer": 3,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "You Enjoy Myself",
@@ -1681,7 +1681,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             }
           ]
         }
@@ -1689,14 +1689,14 @@
     },
     {
       "model": "mistral",
-      "totalPoints": 52.67,
-      "correctCount": 3,
+      "totalPoints": 66,
+      "correctCount": 4,
       "totalPredictions": 18,
-      "correctPercent": 16.67,
+      "correctPercent": 22.22,
       "byWeekend": {
         "1": {
-          "points": 52.67,
-          "correct": 3,
+          "points": 66,
+          "correct": 4,
           "total": 18
         }
       },
@@ -1896,8 +1896,8 @@
           ]
         },
         "3": {
-          "points": 0,
-          "correct": 0,
+          "points": 13.33,
+          "correct": 1,
           "total": 6,
           "predictions": [
             {
@@ -1913,22 +1913,22 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Simple",
               "confidence": 4,
               "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
+              "correct": true,
+              "points": 13.33,
+              "basePoints": 10,
               "bonuses": {
                 "set": 0,
                 "opener": 0,
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Weekapaug Groove",
@@ -1943,7 +1943,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Fluffhead",
@@ -1958,7 +1958,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "David Bowie",
@@ -1973,7 +1973,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Quinn the Eskimo",
@@ -1988,7 +1988,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             }
           ]
         }
@@ -1996,14 +1996,14 @@
     },
     {
       "model": "perplexity",
-      "totalPoints": 44,
-      "correctCount": 3,
+      "totalPoints": 57.33,
+      "correctCount": 4,
       "totalPredictions": 36,
-      "correctPercent": 8.33,
+      "correctPercent": 11.11,
       "byWeekend": {
         "1": {
-          "points": 44,
-          "correct": 3,
+          "points": 57.33,
+          "correct": 4,
           "total": 36
         }
       },
@@ -2383,8 +2383,8 @@
           ]
         },
         "3": {
-          "points": 0,
-          "correct": 0,
+          "points": 13.33,
+          "correct": 1,
           "total": 12,
           "predictions": [
             {
@@ -2400,7 +2400,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Tube",
@@ -2415,7 +2415,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Kill Devil Falls",
@@ -2430,7 +2430,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Evolve",
@@ -2445,7 +2445,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Hey Stranger",
@@ -2460,7 +2460,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Cities",
@@ -2475,22 +2475,22 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Sigma Oasis",
               "confidence": 4,
               "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
+              "correct": true,
+              "points": 13.33,
+              "basePoints": 10,
               "bonuses": {
                 "set": 0,
                 "opener": 0,
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Down With Disease",
@@ -2505,7 +2505,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Beneath a Sea of Stars Part 1",
@@ -2520,7 +2520,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Piper",
@@ -2535,7 +2535,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "First Tube",
@@ -2550,7 +2550,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Good Times Bad Times",
@@ -2565,7 +2565,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             }
           ]
         }
@@ -2573,14 +2573,14 @@
     },
     {
       "model": "chatgpt",
-      "totalPoints": 40,
-      "correctCount": 3,
+      "totalPoints": 53.33,
+      "correctCount": 4,
       "totalPredictions": 45,
-      "correctPercent": 6.67,
+      "correctPercent": 8.89,
       "byWeekend": {
         "1": {
-          "points": 40,
-          "correct": 3,
+          "points": 53.33,
+          "correct": 4,
           "total": 45
         }
       },
@@ -3050,8 +3050,8 @@
           ]
         },
         "3": {
-          "points": 0,
-          "correct": 0,
+          "points": 13.33,
+          "correct": 1,
           "total": 15,
           "predictions": [
             {
@@ -3067,7 +3067,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Free",
@@ -3082,7 +3082,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Rift",
@@ -3097,7 +3097,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "The Lizards",
@@ -3112,7 +3112,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Bounce Around the Room",
@@ -3127,7 +3127,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "David Bowie",
@@ -3142,7 +3142,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Sand",
@@ -3157,22 +3157,22 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Simple",
               "confidence": 4,
               "set": "",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
+              "correct": true,
+              "points": 13.33,
+              "basePoints": 10,
               "bonuses": {
                 "set": 0,
                 "opener": 0,
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Fuego",
@@ -3187,7 +3187,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "2001",
@@ -3202,7 +3202,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "First Tube",
@@ -3217,7 +3217,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Fluffhead",
@@ -3232,7 +3232,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Suzy Greenberg",
@@ -3247,7 +3247,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Weekapaug Groove",
@@ -3262,7 +3262,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Good Times Bad Times",
@@ -3277,7 +3277,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             }
           ]
         }
@@ -3306,8 +3306,8 @@
       "showDate": "2026-04-18",
       "weekend": 1,
       "phishNetUrl": "https://phish.net/setlists/?d=2026-04-18",
-      "scored": false,
-      "fetchStatus": "no_show"
+      "scored": true,
+      "fetchStatus": "ok"
     }
   },
   "hasData": true
