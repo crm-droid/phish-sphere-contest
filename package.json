@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "score": "node scripts/score.js"
+    "score": "node scripts/score.js",
+    "generate-prompts": "node scripts/generate-prompts.js"
   },
   "dependencies": {
     "dotenv": "^17.4.2",

@@ -81,6 +81,25 @@ The phish.net response is held only in memory during the run — it is never wri
 
 If you run before a show has happened, the script still succeeds; shows without a published setlist simply remain "Not scored yet."
 
+### 2b. Generate Weekend 2 / Weekend 3 prompts (between weekends)
+
+Once Weekend 1 is fully scored, generate the personalized follow-up prompt for every model in one step:
+
+```
+npm run generate-prompts
+```
+
+That command:
+1. Fetches the actual Weekend 1 setlists from phish.net (held in memory — never written to disk by this script)
+2. Reads every `/data/predictions/weekend1_*.csv`
+3. Reads `/data/scores/scores.json` for overall standings and per-model Weekend 1 totals
+4. Writes one ready-to-send prompt per model to `/prompts/weekend2_{model}.md`
+5. Writes `/prompts/standings.md` as a quick reference (standings + Weekend 1 actuals)
+
+Copy each `weekend2_{model}.md` into the corresponding model and save its CSV reply to `/data/predictions/weekend2_{model}.csv`.
+
+The `/prompts/` folder contains embedded setlist data for prompt-injection purposes only — **do not publish it on the live site**. It lives alongside `/data` for local use and is fine to commit for reproducibility, but the website never reads from it.
+
 ### 3. Push to GitHub
 
 Commit `scores.json` (plus any new CSVs) and push. Vercel redeploys automatically.
@@ -111,6 +130,8 @@ Full explanation is on the site's About page.
 /lib                  # Helpers + model/show constants
 /scripts
   score.js            # The scoring engine (calls phish.net live)
+  generate-prompts.js # Builds the next weekend's per-model prompts
+/prompts              # Generated prompt files (local / private — not shown on the site)
 /data
   /predictions        # Your prediction CSVs
   /scores
@@ -137,6 +158,7 @@ The site works with zero data. Each page shows a placeholder until `scores.json`
 | `npm install` | First-time dependency install |
 | `npm run dev` | Local site on <http://localhost:3000> |
 | `npm run score` | Fetch setlists from phish.net and recompute `scores.json` |
+| `npm run generate-prompts` | Build Weekend 2 prompt files in `/prompts/` (one per model) using the scored Weekend 1 results |
 | `npm run build` | Production build (used by Vercel) |
 | `npm run start` | Serve production build locally |
 

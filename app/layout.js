@@ -43,6 +43,7 @@ export default function RootLayout({ children }) {
           <Link href="/">Leaderboard</Link>
           <Link href="/weekends/1">Weekends</Link>
           <Link href="/shows/1">Shows</Link>
+          <Link href="/prompts-methodology">Prompts &amp; Methodology</Link>
           <Link href="/about">About</Link>
         </nav>
         <main>{children}</main>
