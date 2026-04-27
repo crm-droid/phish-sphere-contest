@@ -1,0 +1,570 @@
+{
+  "fetchedAt": "2026-04-26T03:11:21.461Z",
+  "shows": [
+    {
+      "show": 1,
+      "date": "2026-04-16",
+      "songs": [
+        {
+          "song": "Evolve",
+          "set": "Set 1",
+          "position": 1
+        },
+        {
+          "song": "Wolfman's Brother",
+          "set": "Set 1",
+          "position": 2
+        },
+        {
+          "song": "Foam",
+          "set": "Set 1",
+          "position": 3
+        },
+        {
+          "song": "Theme from the Bottom",
+          "set": "Set 1",
+          "position": 4
+        },
+        {
+          "song": "Rift",
+          "set": "Set 1",
+          "position": 5
+        },
+        {
+          "song": "Scents and Subtle Sounds",
+          "set": "Set 1",
+          "position": 6
+        },
+        {
+          "song": "Steam",
+          "set": "Set 1",
+          "position": 7
+        },
+        {
+          "song": "Split Open and Melt",
+          "set": "Set 1",
+          "position": 8
+        },
+        {
+          "song": "Everything's Right",
+          "set": "Set 2",
+          "position": 9
+        },
+        {
+          "song": "Down with Disease",
+          "set": "Set 2",
+          "position": 10
+        },
+        {
+          "song": "Twenty Years Later",
+          "set": "Set 2",
+          "position": 11
+        },
+        {
+          "song": "Gotta Jibboo",
+          "set": "Set 2",
+          "position": 12
+        },
+        {
+          "song": "Lifeboy",
+          "set": "Set 2",
+          "position": 13
+        },
+        {
+          "song": "You Enjoy Myself",
+          "set": "Set 2",
+          "position": 14
+        },
+        {
+          "song": "Also Sprach Zarathustra",
+          "set": "Set 2",
+          "position": 15
+        },
+        {
+          "song": "Space Oddity",
+          "set": "Encore",
+          "position": 16
+        },
+        {
+          "song": "Harry Hood",
+          "set": "Encore",
+          "position": 17
+        }
+      ]
+    },
+    {
+      "show": 2,
+      "date": "2026-04-17",
+      "songs": [
+        {
+          "song": "Free",
+          "set": "Set 1",
+          "position": 1
+        },
+        {
+          "song": "Birds of a Feather",
+          "set": "Set 1",
+          "position": 2
+        },
+        {
+          "song": "Martian Monster",
+          "set": "Set 1",
+          "position": 3
+        },
+        {
+          "song": "Guelah Papyrus",
+          "set": "Set 1",
+          "position": 4
+        },
+        {
+          "song": "Divided Sky",
+          "set": "Set 1",
+          "position": 5
+        },
+        {
+          "song": "Hey Stranger",
+          "set": "Set 1",
+          "position": 6
+        },
+        {
+          "song": "Mull",
+          "set": "Set 1",
+          "position": 7
+        },
+        {
+          "song": "Limb By Limb",
+          "set": "Set 1",
+          "position": 8
+        },
+        {
+          "song": "Suzy Greenberg",
+          "set": "Set 1",
+          "position": 9
+        },
+        {
+          "song": "No Men In No Man's Land",
+          "set": "Set 2",
+          "position": 10
+        },
+        {
+          "song": "Light",
+          "set": "Set 2",
+          "position": 11
+        },
+        {
+          "song": "Joy",
+          "set": "Set 2",
+          "position": 12
+        },
+        {
+          "song": "Mike's Song",
+          "set": "Set 2",
+          "position": 13
+        },
+        {
+          "song": "I Am Hydrogen",
+          "set": "Set 2",
+          "position": 14
+        },
+        {
+          "song": "Weekapaug Groove",
+          "set": "Set 2",
+          "position": 15
+        },
+        {
+          "song": "Beneath a Sea of Stars Part 1",
+          "set": "Set 2",
+          "position": 16
+        },
+        {
+          "song": "Most Events Aren't Planned",
+          "set": "Set 2",
+          "position": 17
+        },
+        {
+          "song": "Brief Time",
+          "set": "Encore",
+          "position": 18
+        },
+        {
+          "song": "Carini",
+          "set": "Encore",
+          "position": 19
+        }
+      ]
+    },
+    {
+      "show": 3,
+      "date": "2026-04-18",
+      "songs": [
+        {
+          "song": "Buried Alive",
+          "set": "Set 1",
+          "position": 1
+        },
+        {
+          "song": "AC/DC Bag",
+          "set": "Set 1",
+          "position": 2
+        },
+        {
+          "song": "Reba",
+          "set": "Set 1",
+          "position": 3
+        },
+        {
+          "song": "Colonel Forbin's Ascent",
+          "set": "Set 1",
+          "position": 4
+        },
+        {
+          "song": "Fly Famous Mockingbird",
+          "set": "Set 1",
+          "position": 5
+        },
+        {
+          "song": "Sigma Oasis",
+          "set": "Set 1",
+          "position": 6
+        },
+        {
+          "song": "Walk Away",
+          "set": "Set 1",
+          "position": 7
+        },
+        {
+          "song": "Bathtub Gin",
+          "set": "Set 1",
+          "position": 8
+        },
+        {
+          "song": "Oblivion",
+          "set": "Set 2",
+          "position": 9
+        },
+        {
+          "song": "Simple",
+          "set": "Set 2",
+          "position": 10
+        },
+        {
+          "song": "Tweezer",
+          "set": "Set 2",
+          "position": 11
+        },
+        {
+          "song": "Waste",
+          "set": "Set 2",
+          "position": 12
+        },
+        {
+          "song": "Twist",
+          "set": "Set 2",
+          "position": 13
+        },
+        {
+          "song": "Run Like an Antelope",
+          "set": "Set 2",
+          "position": 14
+        },
+        {
+          "song": "I Am the Walrus",
+          "set": "Encore",
+          "position": 15
+        },
+        {
+          "song": "Tweezer Reprise",
+          "set": "Encore",
+          "position": 16
+        }
+      ]
+    },
+    {
+      "show": 4,
+      "date": "2026-04-23",
+      "songs": [
+        {
+          "song": "46 Days",
+          "set": "Set 1",
+          "position": 1
+        },
+        {
+          "song": "Guyute",
+          "set": "Set 1",
+          "position": 2
+        },
+        {
+          "song": "Maze",
+          "set": "Set 1",
+          "position": 3
+        },
+        {
+          "song": "Esther",
+          "set": "Set 1",
+          "position": 4
+        },
+        {
+          "song": "Gumbo",
+          "set": "Set 1",
+          "position": 5
+        },
+        {
+          "song": "Brian and Robert",
+          "set": "Set 1",
+          "position": 6
+        },
+        {
+          "song": "Stash",
+          "set": "Set 1",
+          "position": 7
+        },
+        {
+          "song": "Moonage Daydream",
+          "set": "Set 1",
+          "position": 8
+        },
+        {
+          "song": "The Curtain With",
+          "set": "Set 2",
+          "position": 9
+        },
+        {
+          "song": "Fuego",
+          "set": "Set 2",
+          "position": 10
+        },
+        {
+          "song": "Golden Age",
+          "set": "Set 2",
+          "position": 11
+        },
+        {
+          "song": "Fuego",
+          "set": "Set 2",
+          "position": 12
+        },
+        {
+          "song": "Backwards Down the Number Line",
+          "set": "Set 2",
+          "position": 13
+        },
+        {
+          "song": "Cavern",
+          "set": "Set 2",
+          "position": 14
+        },
+        {
+          "song": "Possum",
+          "set": "Set 2",
+          "position": 15
+        },
+        {
+          "song": "Fee",
+          "set": "Encore",
+          "position": 16
+        },
+        {
+          "song": "Tube",
+          "set": "Encore",
+          "position": 17
+        },
+        {
+          "song": "More",
+          "set": "Encore",
+          "position": 18
+        }
+      ]
+    },
+    {
+      "show": 5,
+      "date": "2026-04-24",
+      "songs": [
+        {
+          "song": "The Man Who Stepped Into Yesterday",
+          "set": "Set 1",
+          "position": 1
+        },
+        {
+          "song": "Peaches en Regalia",
+          "set": "Set 1",
+          "position": 1
+        },
+        {
+          "song": "The Lizards",
+          "set": "Set 1",
+          "position": 2
+        },
+        {
+          "song": "Set Your Soul Free",
+          "set": "Set 1",
+          "position": 3
+        },
+        {
+          "song": "Roggae",
+          "set": "Set 1",
+          "position": 4
+        },
+        {
+          "song": "Ya Mar",
+          "set": "Set 1",
+          "position": 5
+        },
+        {
+          "song": "The Dogs",
+          "set": "Set 1",
+          "position": 6
+        },
+        {
+          "song": "Billy Breathes",
+          "set": "Set 1",
+          "position": 7
+        },
+        {
+          "song": "It's Ice",
+          "set": "Set 1",
+          "position": 8
+        },
+        {
+          "song": "Walls of the Cave",
+          "set": "Set 1",
+          "position": 9
+        },
+        {
+          "song": "Pebbles and Marbles",
+          "set": "Set 2",
+          "position": 10
+        },
+        {
+          "song": "What's Going Through Your Mind",
+          "set": "Set 2",
+          "position": 11
+        },
+        {
+          "song": "Piper",
+          "set": "Set 2",
+          "position": 12
+        },
+        {
+          "song": "Monsters",
+          "set": "Set 2",
+          "position": 13
+        },
+        {
+          "song": "Life Saving Gun",
+          "set": "Set 2",
+          "position": 14
+        },
+        {
+          "song": "What's the Use?",
+          "set": "Set 2",
+          "position": 15
+        },
+        {
+          "song": "Vultures",
+          "set": "Set 2",
+          "position": 16
+        },
+        {
+          "song": "Say It To Me S.A.N.T.O.S.",
+          "set": "Set 2",
+          "position": 17
+        },
+        {
+          "song": "Slave to the Traffic Light",
+          "set": "Encore",
+          "position": 18
+        }
+      ]
+    }
+  ],
+  "allSongsAlphabetized": [
+    "46 Days",
+    "AC/DC Bag",
+    "Also Sprach Zarathustra",
+    "Backwards Down the Number Line",
+    "Bathtub Gin",
+    "Beneath a Sea of Stars Part 1",
+    "Billy Breathes",
+    "Birds of a Feather",
+    "Brian and Robert",
+    "Brief Time",
+    "Buried Alive",
+    "Carini",
+    "Cavern",
+    "Colonel Forbin's Ascent",
+    "Divided Sky",
+    "Down with Disease",
+    "Esther",
+    "Everything's Right",
+    "Evolve",
+    "Fee",
+    "Fly Famous Mockingbird",
+    "Foam",
+    "Free",
+    "Fuego",
+    "Golden Age",
+    "Gotta Jibboo",
+    "Guelah Papyrus",
+    "Gumbo",
+    "Guyute",
+    "Harry Hood",
+    "Hey Stranger",
+    "I Am Hydrogen",
+    "I Am the Walrus",
+    "It's Ice",
+    "Joy",
+    "Life Saving Gun",
+    "Lifeboy",
+    "Light",
+    "Limb By Limb",
+    "Martian Monster",
+    "Maze",
+    "Mike's Song",
+    "Monsters",
+    "Moonage Daydream",
+    "More",
+    "Most Events Aren't Planned",
+    "Mull",
+    "No Men In No Man's Land",
+    "Oblivion",
+    "Peaches en Regalia",
+    "Pebbles and Marbles",
+    "Piper",
+    "Possum",
+    "Reba",
+    "Rift",
+    "Roggae",
+    "Run Like an Antelope",
+    "Say It To Me S.A.N.T.O.S.",
+    "Scents and Subtle Sounds",
+    "Set Your Soul Free",
+    "Sigma Oasis",
+    "Simple",
+    "Slave to the Traffic Light",
+    "Space Oddity",
+    "Split Open and Melt",
+    "Stash",
+    "Steam",
+    "Suzy Greenberg",
+    "The Curtain With",
+    "The Dogs",
+    "The Lizards",
+    "The Man Who Stepped Into Yesterday",
+    "Theme from the Bottom",
+    "Tube",
+    "Tweezer",
+    "Tweezer Reprise",
+    "Twenty Years Later",
+    "Twist",
+    "Vultures",
+    "Walk Away",
+    "Walls of the Cave",
+    "Waste",
+    "Weekapaug Groove",
+    "What's Going Through Your Mind",
+    "What's the Use?",
+    "Wolfman's Brother",
+    "Ya Mar",
+    "You Enjoy Myself"
+  ]
+}

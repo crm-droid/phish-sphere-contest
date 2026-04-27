@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-25T16:50:09.512Z",
+  "generatedAt": "2026-04-27T10:34:35.285Z",
   "leaderboard": [
     {
       "model": "claude",
@@ -793,7 +793,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Undermind",
@@ -808,7 +808,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Plasma",
@@ -823,7 +823,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Sample in a Jar",
@@ -838,7 +838,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Wolfman's Brother",
@@ -853,7 +853,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Boogie On Reggae Woman",
@@ -868,7 +868,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Fee",
@@ -883,7 +883,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Cavern",
@@ -898,7 +898,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             }
           ]
         }
@@ -906,10 +906,10 @@
     },
     {
       "model": "chatgpt",
-      "totalPoints": 142.67,
-      "correctCount": 10,
+      "totalPoints": 187,
+      "correctCount": 13,
       "totalPredictions": 72,
-      "correctPercent": 13.89,
+      "correctPercent": 18.06,
       "byWeekend": {
         "1": {
           "points": 53.33,
@@ -917,8 +917,8 @@
           "total": 45
         },
         "2": {
-          "points": 89.33,
-          "correct": 6,
+          "points": 133.67,
+          "correct": 9,
           "total": 27
         }
       },
@@ -1904,8 +1904,8 @@
           ]
         },
         "6": {
-          "points": 0,
-          "correct": 0,
+          "points": 44.33,
+          "correct": 3,
           "total": 9,
           "predictions": [
             {
@@ -1921,22 +1921,22 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Halley's Comet",
               "confidence": 4,
               "set": "",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
+              "correct": true,
+              "points": 13.33,
+              "basePoints": 10,
               "bonuses": {
                 "set": 0,
                 "opener": 0,
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Julius",
@@ -1951,7 +1951,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "My Friend",
@@ -1966,7 +1966,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Vultures",
@@ -1981,22 +1981,22 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Waves",
               "confidence": 4,
               "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
+              "correct": true,
+              "points": 16,
+              "basePoints": 12,
               "bonuses": {
-                "set": 0,
+                "set": 2,
                 "opener": 0,
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Piper",
@@ -2011,7 +2011,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "What's the Use?",
@@ -2026,22 +2026,22 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "First Tube",
               "confidence": 3,
               "set": "Encore",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
+              "correct": true,
+              "points": 15,
+              "basePoints": 15,
               "bonuses": {
                 "set": 0,
                 "opener": 0,
                 "closer": 0,
-                "encore": 0
+                "encore": 5
               },
-              "hasActual": false
+              "hasActual": true
             }
           ]
         }
@@ -3019,7 +3019,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Stash",
@@ -3034,7 +3034,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Wilson",
@@ -3049,7 +3049,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Back on the Train",
@@ -3064,7 +3064,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "A Song I Heard the Ocean Sing",
@@ -3079,7 +3079,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Lonely Trip",
@@ -3094,7 +3094,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Wading in the Velvet Sea",
@@ -3109,7 +3109,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "More",
@@ -3124,7 +3124,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             }
           ]
         }
@@ -3132,10 +3132,10 @@
     },
     {
       "model": "gemini",
-      "totalPoints": 101.33,
-      "correctCount": 6,
+      "totalPoints": 133.33,
+      "correctCount": 8,
       "totalPredictions": 53,
-      "correctPercent": 11.32,
+      "correctPercent": 15.09,
       "byWeekend": {
         "1": {
           "points": 89.33,
@@ -3143,8 +3143,8 @@
           "total": 29
         },
         "2": {
-          "points": 12,
-          "correct": 1,
+          "points": 44,
+          "correct": 3,
           "total": 24
         }
       },
@@ -3860,8 +3860,8 @@
           ]
         },
         "6": {
-          "points": 0,
-          "correct": 0,
+          "points": 32,
+          "correct": 2,
           "total": 8,
           "predictions": [
             {
@@ -3877,7 +3877,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Funky Bitch",
@@ -3892,7 +3892,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Camel Walk",
@@ -3907,7 +3907,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "David Bowie",
@@ -3922,7 +3922,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Golden Age",
@@ -3937,22 +3937,22 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Waves",
               "confidence": 3,
               "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
+              "correct": true,
+              "points": 12,
+              "basePoints": 12,
               "bonuses": {
-                "set": 0,
+                "set": 2,
                 "opener": 0,
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Slave to the Traffic Light",
@@ -3967,22 +3967,22 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "First Tube",
               "confidence": 4,
               "set": "Encore",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
+              "correct": true,
+              "points": 20,
+              "basePoints": 15,
               "bonuses": {
                 "set": 0,
                 "opener": 0,
                 "closer": 0,
-                "encore": 0
+                "encore": 5
               },
-              "hasActual": false
+              "hasActual": true
             }
           ]
         }
@@ -4915,7 +4915,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "The Sloth",
@@ -4930,7 +4930,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Pillow Jets",
@@ -4945,7 +4945,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Stash",
@@ -4960,7 +4960,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Evolve",
@@ -4975,7 +4975,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Tweezer",
@@ -4990,7 +4990,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Psycho Killer",
@@ -5005,7 +5005,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Sand",
@@ -5020,7 +5020,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Harry Hood",
@@ -5035,7 +5035,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "The Mango Song",
@@ -5050,7 +5050,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             }
           ]
         }
@@ -5593,7 +5593,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Rift",
@@ -5608,7 +5608,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Tweezer",
@@ -5623,7 +5623,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Slave to the Traffic Light",
@@ -5638,7 +5638,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "The Lizards",
@@ -5653,7 +5653,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Waste",
@@ -5668,7 +5668,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Joy",
@@ -5683,7 +5683,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             }
           ]
         }
@@ -5736,8 +5736,8 @@
       "showDate": "2026-04-25",
       "weekend": 2,
       "phishNetUrl": "https://phish.net/setlists/?d=2026-04-25",
-      "scored": false,
-      "fetchStatus": "no_show"
+      "scored": true,
+      "fetchStatus": "ok"
     }
   },
   "hasData": true
