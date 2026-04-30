@@ -53,6 +53,13 @@ const CANONICAL_MODELS = new Set([
   'mistral',
 ]);
 
+// Weekend 3 bonus rules (from context.md):
+//   - Perfect Night: 5–7 correct songs in a single Weekend 3 show = +50 pts
+//   - Elite Night:   8+  correct songs in a single Weekend 3 show = +100 pts
+//   - Awarded once per model, for that model's single best Weekend 3 show.
+//   - Elite replaces Perfect (not stacked). Flat bonus, no confidence multiplier.
+const WEEKEND_3_SHOW_NUMBERS = new Set([7, 8, 9]);
+
 // ---------- CSV parsing ----------
 
 function parseCSV(content) {
@@ -267,6 +274,28 @@ function round2(n) {
   return Math.round(n * 100) / 100;
 }
 
+// Compute the Weekend 3 Perfect/Elite Night bonus for one model.
+// Returns { type, points, showNumber, correct } or null when no bonus applies.
+function computeWeekend3Bonus(byShow) {
+  let bestShow = null;
+  let bestCorrect = 0;
+  for (const [showKey, info] of Object.entries(byShow)) {
+    const showNum = parseInt(showKey, 10);
+    if (!WEEKEND_3_SHOW_NUMBERS.has(showNum)) continue;
+    if (info.correct > bestCorrect) {
+      bestCorrect = info.correct;
+      bestShow = showNum;
+    }
+  }
+  if (bestCorrect >= 8) {
+    return { type: 'elite', points: 100, showNumber: bestShow, correct: bestCorrect };
+  }
+  if (bestCorrect >= 5) {
+    return { type: 'perfect', points: 50, showNumber: bestShow, correct: bestCorrect };
+  }
+  return null;
+}
+
 // ---------- Main ----------
 
 async function main() {
@@ -360,6 +389,20 @@ async function main() {
     });
   }
 
+  // Apply Weekend 3 Perfect Night / Elite Night bonus once per model, for the
+  // single best Weekend 3 show. Flat bonus, no confidence multiplier.
+  const bonusesAwarded = [];
+  for (const m of Object.values(models)) {
+    const bonus = computeWeekend3Bonus(m.byShow);
+    m.weekend3Bonus = bonus;
+    if (bonus) {
+      m.totalPoints += bonus.points;
+      if (!m.byWeekend[3]) m.byWeekend[3] = { points: 0, correct: 0, total: 0 };
+      m.byWeekend[3].points += bonus.points;
+      bonusesAwarded.push({ model: m.model, ...bonus });
+    }
+  }
+
   const leaderboard = Object.values(models)
     .map((m) => ({
       model: m.model,
@@ -387,6 +430,7 @@ async function main() {
           },
         ])
       ),
+      weekend3Bonus: m.weekend3Bonus,
     }))
     .sort((a, b) => b.totalPoints - a.totalPoints);
 
@@ -418,6 +462,13 @@ async function main() {
   console.log(
     `Scoring complete — ${leaderboard.length} model(s), ${scoredCount}/${uniqueDates.length} show(s) scored.`
   );
+  if (bonusesAwarded.length > 0) {
+    console.log('Weekend 3 bonuses:');
+    for (const b of bonusesAwarded) {
+      const tag = b.type === 'elite' ? 'Elite Night (+100)' : 'Perfect Night (+50)';
+      console.log(`  • ${b.model} — ${tag} on Show ${b.showNumber} (${b.correct} correct)`);
+    }
+  }
   console.log(`Wrote ${outPath}`);
 }
 

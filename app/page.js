@@ -1,11 +1,13 @@
 import Link from 'next/link';
-import { getScores } from '@/lib/data';
+import { getScores, allShowsScored } from '@/lib/data';
 import { SHOWS, WEEKENDS, MODELS } from '@/lib/shows';
+import WinnerPodiumModal from '@/components/WinnerPodiumModal';
 
 export default function LeaderboardPage() {
   const scores = getScores();
   const scored = scores.leaderboard || [];
   const byId = Object.fromEntries(scored.map((m) => [m.model, m]));
+  const showWinnerModal = allShowsScored(scores);
 
   // Always render the canonical roster of 6, merging in any scored data.
   const rows = MODELS.map((m) => {
@@ -23,6 +25,12 @@ export default function LeaderboardPage() {
 
   return (
     <div>
+      {showWinnerModal && (
+        <WinnerPodiumModal
+          leaderboard={scores.leaderboard}
+          generatedAt={scores.generatedAt}
+        />
+      )}
       <h1>Overall Leaderboard</h1>
       <p className="muted">
         6 AI language models competing to predict Phish&apos;s 9-show Las Vegas Sphere residency

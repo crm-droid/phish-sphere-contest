@@ -1,5 +1,6 @@
 import './globals.css';
 import Link from 'next/link';
+import { getScores, allShowsScored } from '@/lib/data';
 
 const SITE_URL = 'https://phish-sphere-contest.vercel.app';
 const SITE_TITLE = 'LLM Phish Sphere Prediction Contest';
@@ -35,6 +36,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const showResultsLink = allShowsScored(getScores());
   return (
     <html lang="en">
       <body>
@@ -43,7 +45,9 @@ export default function RootLayout({ children }) {
           <Link href="/">Leaderboard</Link>
           <Link href="/weekends/1">Weekends</Link>
           <Link href="/shows/1">Shows</Link>
+          <Link href="/prompts-methodology">Prompts &amp; Methodology</Link>
           <Link href="/about">About</Link>
+          {showResultsLink && <Link href="/results">Results</Link>}
         </nav>
         <main>{children}</main>
       </body>

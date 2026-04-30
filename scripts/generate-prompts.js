@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 /**
- * Phish Sphere Contest — Weekend 2 prompt generator.
+ * Phish Sphere Contest — Weekend 3 prompt generator.
  *
  * Does everything in one run:
- *   1. Fetches Weekend 1 actual setlists live from phish.net (held in memory).
- *   2. Reads each model's Weekend 1 prediction CSV.
+ *   1. Fetches actual setlists for all 6 completed shows (Weekends 1 + 2)
+ *      live from phish.net (held in memory).
+ *   2. Reads each model's Weekend 2 prediction CSV.
  *   3. Reads /data/scores/scores.json for standings.
- *   4. Writes one personalized prompt per model to /prompts/weekend2_{model}.md.
- *   5. Writes /prompts/standings.md with the standings + Weekend 1 actuals.
+ *   4. Writes one personalized prompt per model to /prompts/weekend3_{model}.md.
+ *   5. Writes /prompts/standings.md with the standings + Weekend 1+2 actuals.
  *
  * Setlist data stays in /prompts (local / gitignored territory) — it is never
  * published on the live site.
@@ -37,6 +38,26 @@ const WEEKEND_1_DATES = [
   { date: '2026-04-17', showNumber: 2, label: 'Show 2 - April 17' },
   { date: '2026-04-18', showNumber: 3, label: 'Show 3 - April 18' },
 ];
+
+const WEEKEND_2_DATES = [
+  { date: '2026-04-23', showNumber: 4, label: 'Show 4 - April 23' },
+  { date: '2026-04-24', showNumber: 5, label: 'Show 5 - April 24' },
+  { date: '2026-04-25', showNumber: 6, label: 'Show 6 - April 25' },
+];
+
+const WEEKEND_3_DATES = [
+  { date: '2026-04-30', showNumber: 7, label: 'Show 7 - April 30' },
+  { date: '2026-05-01', showNumber: 8, label: 'Show 8 - May 1' },
+  { date: '2026-05-02', showNumber: 9, label: 'Show 9 - May 2' },
+];
+
+const COMPLETED_SHOWS = [...WEEKEND_1_DATES, ...WEEKEND_2_DATES];
+
+const WEEKEND_2_SHOW_META = {
+  4: 'Show 4 - April 23',
+  5: 'Show 5 - April 24',
+  6: 'Show 6 - April 25',
+};
 
 const MODEL_DISPLAY_NAMES = {
   claude: 'Claude',
@@ -158,7 +179,7 @@ function formatActualShow(label, status, rows) {
 
 // ---------- Predictions formatting ----------
 
-function formatPredictions(rows) {
+function formatPredictions(rows, showMeta) {
   const byShow = new Map();
   for (const row of rows) {
     const showNum = parseInt(row.Show_Number, 10);
@@ -166,11 +187,6 @@ function formatPredictions(rows) {
     if (!byShow.has(showNum)) byShow.set(showNum, []);
     byShow.get(showNum).push(row);
   }
-  const showMeta = {
-    1: 'Show 1 - April 16',
-    2: 'Show 2 - April 17',
-    3: 'Show 3 - April 18',
-  };
   const sections = [];
   const sortedShows = [...byShow.keys()].sort((a, b) => a - b);
   for (const showNum of sortedShows) {
@@ -204,9 +220,9 @@ function readScores() {
 
 function formatStandings(leaderboard) {
   if (!leaderboard || leaderboard.length === 0) {
-    return 'Current Standings after Weekend 1:\n(standings unavailable — scores.json missing or empty)';
+    return 'Current Standings after Weekend 2:\n(standings unavailable — scores.json missing or empty)';
   }
-  const lines = ['Current Standings after Weekend 1:'];
+  const lines = ['Current Standings after Weekend 2:'];
   leaderboard.forEach((entry, idx) => {
     const display = MODEL_DISPLAY_NAMES[entry.model] || entry.model;
     lines.push(`${idx + 1}. ${display} — ${entry.totalPoints} pts`);
@@ -214,13 +230,11 @@ function formatStandings(leaderboard) {
   return lines.join('\n');
 }
 
-function getWeekend1ScoreForModel(leaderboard, model) {
+function getWeekendScoreForModel(leaderboard, model, weekendKey) {
   const entry = leaderboard.find((e) => e.model === model);
   if (!entry) return null;
-  const w1 = entry.byWeekend && entry.byWeekend['1'];
-  if (w1 && typeof w1.points === 'number') return w1.points;
-  // Fall back to totalPoints if per-weekend isn't broken out yet.
-  if (typeof entry.totalPoints === 'number') return entry.totalPoints;
+  const w = entry.byWeekend && entry.byWeekend[weekendKey];
+  if (w && typeof w.points === 'number') return w.points;
   return null;
 }
 
@@ -231,20 +245,20 @@ function buildPrompt({
   actualsText,
   predictionsText,
   weekend1Score,
+  weekend2Score,
+  totalScore,
 }) {
-  const scoreLine =
-    weekend1Score === null
-      ? '[Weekend 1 score unavailable — scores.json missing per-model totals]'
-      : `${weekend1Score} pts`;
+  const fmt = (v) => (v === null ? '[unavailable]' : `${v} pts`);
+  return `You are competing against other LLMs to predict Phish setlists for their 9-show Las Vegas Sphere residency (2026). You are now predicting Weekend 3 (shows 7, 8, 9).
+Use your extended thinking / reasoning mode for this task. Take time to reason carefully before producing output. But do not use your memory from my sessions, use only this prompt and your training data.
+You are competing in a non-logged-in session. Use your extended thinking or reasoning mode if available.
 
-  return `You are competing against other LLMs to predict Phish setlists for their 9-show Las Vegas Sphere residency (2026). You are now predicting Weekend 2 (shows 4-6).
-Use your extended thinking / reasoning mode for this task. Take time to reason carefully before producing output.
 Show dates:
 
-Weekend 2: Thu Apr 24, Fri Apr 25, Sat Apr 26 (shows 4, 5, 6)
+Weekend 2: Thu Apr 23, Fri Apr 24, Sat Apr 25 (shows 4, 5, 6)
 Weekend 3: Thu Apr 30, Fri May 1, Sat May 2 (shows 7, 8, 9)
 
-Current competition standings after Weekend 1:
+Current competition standings after Weekend 2:
 ${standingsText}
 
 Critical context — weight this carefully:
@@ -253,22 +267,30 @@ This is the Sphere in Las Vegas, not a standard Phish show. Sets tend to be long
 Phish has been actively touring in 2024-2026. Make sure you are aware of and consider their recent setlists from this period — including their 2024 Sphere run — as part of your analysis. If you have the ability to search the web or access recent data, use it.
 Consider historical patterns from Phish residencies and multi-night runs when deciding which songs to predict. Think carefully about how Phish has approached song selection across consecutive nights in the past.
 
-What was actually played in Weekend 1:
+You are in the final weekend of the competition. This is your last chance to move up or defend your position. Weekend 3 bonus points are available and could flip the leaderboard:
+
+Perfect Night bonus: get 5-7 songs correct in a single show = +50 pts (one time only, best show counts)
+Elite Night bonus: get 8+ songs correct in a single show = +100 pts (one time only, replaces Perfect Night bonus)
+These bonuses are awarded once per model for their single best show in Weekend 3.
+
+What was actually played in Weekends 1 and 2:
 ${actualsText}
 
-Your Weekend 1 predictions:
+Your Weekend 2 predictions:
 ${predictionsText}
 
-Your Weekend 1 score: ${scoreLine}
+Your Weekend 1 score: ${fmt(weekend1Score)}
+Your Weekend 2 score: ${fmt(weekend2Score)}
+Your total score so far: ${fmt(totalScore)}
 
 Rules:
 
-Predict songs for Weekend 2 only (shows 4, 5, 6) right now
+Predict songs for Weekend 3 only (shows 7, 8, 9) right now
 Each song must be a real Phish song
 Predict between 20 and 30 total songs across the 3 shows (7-10 per show)
 Assign confidence 1-5 to every prediction
 Optionally predict set placement (Set1, Set2, Encore) for bonus points
-High confidence picks (4-5) you are changing from Weekend 1 will be penalized
+High confidence picks (4-5) you are changing from a prior weekend will be penalized
 
 Scoring reminder:
 
@@ -276,12 +298,13 @@ Scoring reminder:
 +2 pts correct set placement, +3 pts correct opener/closer, +5 pts correct encore
 Score multiplied by (Confidence / 3)
 Revision penalty: changing a 4-5 confidence pick = 50% confidence bonus lost
+Weekend 3 only: Perfect Night (+50) or Elite Night (+100) bonus per model, best show in Weekend 3
 
 Required CSV output format:
 Weekend_Number,Show_Number,Show_Date,Song_Title,Confidence,Set_Placement
 
-Weekend_Number = 2
-Show_Number = 4, 5, or 6
+Weekend_Number = 3
+Show_Number = 7, 8, or 9
 Set_Placement = Set1, Set2, Encore, or blank
 Output only the CSV block, no other text, no markdown
 
@@ -299,10 +322,10 @@ async function main() {
     );
   }
 
-  // 1. Fetch actual Weekend 1 setlists.
-  console.log('Fetching Weekend 1 setlists from phish.net...');
+  // 1. Fetch actual setlists for all 6 completed shows.
+  console.log('Fetching Weekend 1 + 2 setlists from phish.net...');
   const actualResults = await Promise.all(
-    WEEKEND_1_DATES.map(async (d) => {
+    COMPLETED_SHOWS.map(async (d) => {
       const { status, rows } = await fetchSetlist(d.date);
       if (status !== 'ok') {
         console.warn(`  ⚠ ${d.date}: ${status}`);
@@ -314,17 +337,17 @@ async function main() {
     .map((r) => formatActualShow(r.label, r.status, r.rows))
     .join('\n\n');
 
-  // 2. Read each model's Weekend 1 prediction CSV.
+  // 2. Read each model's Weekend 2 prediction CSV.
   if (!fs.existsSync(PRED_DIR)) {
     console.error(`Predictions directory not found: ${PRED_DIR}`);
     process.exit(1);
   }
   const predictionFiles = fs
     .readdirSync(PRED_DIR)
-    .filter((f) => /^weekend1_.+\.csv$/i.test(f))
+    .filter((f) => /^weekend2_.+\.csv$/i.test(f))
     .sort();
   if (predictionFiles.length === 0) {
-    console.error(`No weekend1_*.csv files found in ${PRED_DIR}`);
+    console.error(`No weekend2_*.csv files found in ${PRED_DIR}`);
     process.exit(1);
   }
 
@@ -337,23 +360,11 @@ async function main() {
   }
   const standingsText = formatStandings(leaderboard);
 
-  // Flag when per-weekend breakdown is missing — still produce prompts.
-  const hasPerWeekend =
-    leaderboard.length > 0 &&
-    leaderboard.every(
-      (e) => e.byWeekend && typeof (e.byWeekend['1'] || {}).points === 'number'
-    );
-  if (!hasPerWeekend && leaderboard.length > 0) {
-    console.warn(
-      '  ⚠ scores.json has no per-weekend breakdown. Falling back to totalPoints for each model\'s Weekend 1 score.'
-    );
-  }
-
   // 4. Write per-model prompt files.
   if (!fs.existsSync(PROMPTS_DIR)) fs.mkdirSync(PROMPTS_DIR, { recursive: true });
 
   for (const file of predictionFiles) {
-    const match = file.match(/^weekend1_(.+)\.csv$/i);
+    const match = file.match(/^weekend2_(.+)\.csv$/i);
     if (!match) continue;
     const model = match[1].toLowerCase();
     const filePath = path.join(PRED_DIR, file);
@@ -364,15 +375,22 @@ async function main() {
       console.warn(`  ⚠ Could not read ${file}: ${e.message}`);
       continue;
     }
-    const predictionsText = formatPredictions(rows);
-    const weekend1Score = getWeekend1ScoreForModel(leaderboard, model);
+    const predictionsText = formatPredictions(rows, WEEKEND_2_SHOW_META);
+    const weekend1Score = getWeekendScoreForModel(leaderboard, model, '1');
+    const weekend2Score = getWeekendScoreForModel(leaderboard, model, '2');
+    const entry = leaderboard.find((e) => e.model === model);
+    const totalScore = entry && typeof entry.totalPoints === 'number'
+      ? entry.totalPoints
+      : null;
     const prompt = buildPrompt({
       standingsText,
       actualsText,
       predictionsText,
       weekend1Score,
+      weekend2Score,
+      totalScore,
     });
-    const outPath = path.join(PROMPTS_DIR, `weekend2_${model}.md`);
+    const outPath = path.join(PROMPTS_DIR, `weekend3_${model}.md`);
     fs.writeFileSync(outPath, prompt);
     console.log(`Wrote ${path.relative(ROOT, outPath)}`);
   }
@@ -380,7 +398,7 @@ async function main() {
   // 5. Standings reference file.
   const standingsDoc = `${standingsText}
 
-Weekend 1 — actual setlists:
+Weekends 1 and 2 — actual setlists:
 ${actualsText}
 `;
   const standingsOut = path.join(PROMPTS_DIR, 'standings.md');
