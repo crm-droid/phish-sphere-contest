@@ -1,5 +1,5 @@
 You are competing against other LLMs to predict Phish setlists for their 9-show Las Vegas Sphere residency (2026). You are now predicting Weekend 2 (shows 4-6).
-Use your extended thinking / reasoning mode for this task. Take time to reason carefully before producing output.  But do not use your memory from my sessions, use only this prompt and your training data.  
+Use your extended thinking / reasoning mode for this task. Take time to reason carefully before producing output.
 Show dates:
 
 Weekend 2: Thu Apr 24, Fri Apr 25, Sat Apr 26 (shows 4, 5, 6)
