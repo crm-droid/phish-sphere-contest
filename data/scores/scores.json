@@ -1,1317 +1,12 @@
 {
-  "generatedAt": "2026-05-01T01:20:11.808Z",
+  "generatedAt": "2026-05-01T11:12:34.662Z",
   "leaderboard": [
     {
-      "model": "claude",
-      "totalPoints": 215,
-      "correctCount": 16,
-      "totalPredictions": 81,
-      "correctPercent": 19.75,
-      "byWeekend": {
-        "1": {
-          "points": 179.67,
-          "correct": 13,
-          "total": 32
-        },
-        "2": {
-          "points": 35.33,
-          "correct": 3,
-          "total": 24
-        },
-        "3": {
-          "points": 0,
-          "correct": 0,
-          "total": 25
-        }
-      },
-      "byShow": {
-        "1": {
-          "points": 54.67,
-          "correct": 4,
-          "total": 10,
-          "predictions": [
-            {
-              "song": "Everything's Right",
-              "confidence": 4,
-              "set": "Set1",
-              "correct": true,
-              "points": 13.33,
-              "basePoints": 10,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Chalk Dust Torture",
-              "confidence": 4,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Reba",
-              "confidence": 3,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Bathtub Gin",
-              "confidence": 4,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Down With Disease",
-              "confidence": 4,
-              "set": "Set2",
-              "correct": true,
-              "points": 16,
-              "basePoints": 12,
-              "bonuses": {
-                "set": 2,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Harry Hood",
-              "confidence": 4,
-              "set": "Set2",
-              "correct": true,
-              "points": 13.33,
-              "basePoints": 10,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Tweezer",
-              "confidence": 4,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "You Enjoy Myself",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": true,
-              "points": 12,
-              "basePoints": 12,
-              "bonuses": {
-                "set": 2,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Slave to the Traffic Light",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Run Like an Antelope",
-              "confidence": 4,
-              "set": "Encore",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            }
-          ]
-        },
-        "2": {
-          "points": 88,
-          "correct": 6,
-          "total": 11,
-          "predictions": [
-            {
-              "song": "Mike's Song",
-              "confidence": 4,
-              "set": "Set1",
-              "correct": true,
-              "points": 13.33,
-              "basePoints": 10,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Weekapaug Groove",
-              "confidence": 4,
-              "set": "Set1",
-              "correct": true,
-              "points": 13.33,
-              "basePoints": 10,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Divided Sky",
-              "confidence": 4,
-              "set": "Set1",
-              "correct": true,
-              "points": 16,
-              "basePoints": 12,
-              "bonuses": {
-                "set": 2,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Free",
-              "confidence": 4,
-              "set": "Set1",
-              "correct": true,
-              "points": 20,
-              "basePoints": 15,
-              "bonuses": {
-                "set": 2,
-                "opener": 3,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Stash",
-              "confidence": 3,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Carini",
-              "confidence": 4,
-              "set": "Set2",
-              "correct": true,
-              "points": 13.33,
-              "basePoints": 10,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Light",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": true,
-              "points": 12,
-              "basePoints": 12,
-              "bonuses": {
-                "set": 2,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Sand",
-              "confidence": 4,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Golden Age",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "First Tube",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Possum",
-              "confidence": 3,
-              "set": "Encore",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            }
-          ]
-        },
-        "3": {
-          "points": 37,
-          "correct": 3,
-          "total": 11,
-          "predictions": [
-            {
-              "song": "Buried Alive",
-              "confidence": 3,
-              "set": "Set1",
-              "correct": true,
-              "points": 15,
-              "basePoints": 15,
-              "bonuses": {
-                "set": 2,
-                "opener": 3,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Wolfman's Brother",
-              "confidence": 3,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Fluffhead",
-              "confidence": 3,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Sigma Oasis",
-              "confidence": 3,
-              "set": "Set1",
-              "correct": true,
-              "points": 12,
-              "basePoints": 12,
-              "bonuses": {
-                "set": 2,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Blaze On",
-              "confidence": 3,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Fuego",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Tweezer Reprise",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": true,
-              "points": 10,
-              "basePoints": 10,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Theme from the Bottom",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Piper",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Character Zero",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Good Times Bad Times",
-              "confidence": 3,
-              "set": "Encore",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            }
-          ]
-        },
-        "4": {
-          "points": 35.33,
-          "correct": 3,
-          "total": 8,
-          "predictions": [
-            {
-              "song": "Chalk Dust Torture",
-              "confidence": 4,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Stash",
-              "confidence": 4,
-              "set": "Set2",
-              "correct": true,
-              "points": 13.33,
-              "basePoints": 10,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Slave to the Traffic Light",
-              "confidence": 4,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Possum",
-              "confidence": 3,
-              "set": "Set1",
-              "correct": true,
-              "points": 10,
-              "basePoints": 10,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Julius",
-              "confidence": 3,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Piper",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Golden Age",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": true,
-              "points": 12,
-              "basePoints": 12,
-              "bonuses": {
-                "set": 2,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Character Zero",
-              "confidence": 3,
-              "set": "Encore",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            }
-          ]
-        },
-        "5": {
-          "points": 0,
-          "correct": 0,
-          "total": 8,
-          "predictions": [
-            {
-              "song": "Fluffhead",
-              "confidence": 4,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Sand",
-              "confidence": 4,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Blaze On",
-              "confidence": 3,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Fuego",
-              "confidence": 3,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Architect",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Ruby Waves",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "First Tube",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Good Times Bad Times",
-              "confidence": 3,
-              "set": "Encore",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            }
-          ]
-        },
-        "6": {
-          "points": 0,
-          "correct": 0,
-          "total": 8,
-          "predictions": [
-            {
-              "song": "Run Like an Antelope",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Undermind",
-              "confidence": 3,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Plasma",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Sample in a Jar",
-              "confidence": 3,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Wolfman's Brother",
-              "confidence": 2,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Boogie On Reggae Woman",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Fee",
-              "confidence": 2,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            },
-            {
-              "song": "Cavern",
-              "confidence": 3,
-              "set": "Encore",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": true
-            }
-          ]
-        },
-        "7": {
-          "points": 0,
-          "correct": 0,
-          "total": 9,
-          "predictions": [
-            {
-              "song": "Fluffhead",
-              "confidence": 4,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "Chalk Dust Torture",
-              "confidence": 4,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "Julius",
-              "confidence": 3,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "Undermind",
-              "confidence": 3,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "Sand",
-              "confidence": 4,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "Piper",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "Ruby Waves",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "Character Zero",
-              "confidence": 3,
-              "set": "Encore",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "Good Times Bad Times",
-              "confidence": 3,
-              "set": "Encore",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            }
-          ]
-        },
-        "8": {
-          "points": 0,
-          "correct": 0,
-          "total": 8,
-          "predictions": [
-            {
-              "song": "Sample in a Jar",
-              "confidence": 3,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "Wolfman's Brother",
-              "confidence": 3,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "Guelah Papyrus",
-              "confidence": 3,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "Slave to the Traffic Light",
-              "confidence": 4,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "Boogie On Reggae Woman",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "Plasma",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "Harry Hood",
-              "confidence": 4,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "Cavern",
-              "confidence": 3,
-              "set": "Encore",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            }
-          ]
-        },
-        "9": {
-          "points": 0,
-          "correct": 0,
-          "total": 8,
-          "predictions": [
-            {
-              "song": "Blaze On",
-              "confidence": 3,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "Stash",
-              "confidence": 4,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "Lawn Boy",
-              "confidence": 3,
-              "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "Fuego",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "Roses Are Free",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "Drowned",
-              "confidence": 3,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "Run Like an Antelope",
-              "confidence": 4,
-              "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            },
-            {
-              "song": "First Tube",
-              "confidence": 3,
-              "set": "Encore",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
-              "bonuses": {
-                "set": 0,
-                "opener": 0,
-                "closer": 0,
-                "encore": 0
-              },
-              "hasActual": false
-            }
-          ]
-        }
-      },
-      "weekend3Bonus": null
-    },
-    {
       "model": "chatgpt",
-      "totalPoints": 187,
-      "correctCount": 13,
+      "totalPoints": 254,
+      "correctCount": 17,
       "totalPredictions": 99,
-      "correctPercent": 13.13,
+      "correctPercent": 17.17,
       "byWeekend": {
         "1": {
           "points": 53.33,
@@ -1324,8 +19,8 @@
           "total": 27
         },
         "3": {
-          "points": 0,
-          "correct": 0,
+          "points": 67,
+          "correct": 4,
           "total": 27
         }
       },
@@ -2453,8 +1148,8 @@
           ]
         },
         "7": {
-          "points": 0,
-          "correct": 0,
+          "points": 67,
+          "correct": 4,
           "total": 8,
           "predictions": [
             {
@@ -2470,22 +1165,22 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Punch You in the Eye",
               "confidence": 4,
               "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
+              "correct": true,
+              "points": 16,
+              "basePoints": 12,
               "bonuses": {
-                "set": 0,
+                "set": 2,
                 "opener": 0,
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Kill Devil Falls",
@@ -2500,7 +1195,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Back on the Train",
@@ -2515,7 +1210,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Sand",
@@ -2530,52 +1225,52 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "A Wave of Hope",
               "confidence": 5,
               "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
+              "correct": true,
+              "points": 20,
+              "basePoints": 12,
               "bonuses": {
-                "set": 0,
+                "set": 2,
                 "opener": 0,
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Prince Caspian",
               "confidence": 4,
               "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
+              "correct": true,
+              "points": 16,
+              "basePoints": 12,
               "bonuses": {
-                "set": 0,
+                "set": 2,
                 "opener": 0,
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "The Squirming Coil",
               "confidence": 3,
               "set": "Encore",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
+              "correct": true,
+              "points": 15,
+              "basePoints": 15,
               "bonuses": {
                 "set": 0,
                 "opener": 0,
                 "closer": 0,
-                "encore": 0
+                "encore": 5
               },
-              "hasActual": false
+              "hasActual": true
             }
           ]
         },
@@ -2882,11 +1577,1316 @@
       "weekend3Bonus": null
     },
     {
+      "model": "claude",
+      "totalPoints": 215,
+      "correctCount": 16,
+      "totalPredictions": 81,
+      "correctPercent": 19.75,
+      "byWeekend": {
+        "1": {
+          "points": 179.67,
+          "correct": 13,
+          "total": 32
+        },
+        "2": {
+          "points": 35.33,
+          "correct": 3,
+          "total": 24
+        },
+        "3": {
+          "points": 0,
+          "correct": 0,
+          "total": 25
+        }
+      },
+      "byShow": {
+        "1": {
+          "points": 54.67,
+          "correct": 4,
+          "total": 10,
+          "predictions": [
+            {
+              "song": "Everything's Right",
+              "confidence": 4,
+              "set": "Set1",
+              "correct": true,
+              "points": 13.33,
+              "basePoints": 10,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Chalk Dust Torture",
+              "confidence": 4,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Reba",
+              "confidence": 3,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Bathtub Gin",
+              "confidence": 4,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Down With Disease",
+              "confidence": 4,
+              "set": "Set2",
+              "correct": true,
+              "points": 16,
+              "basePoints": 12,
+              "bonuses": {
+                "set": 2,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Harry Hood",
+              "confidence": 4,
+              "set": "Set2",
+              "correct": true,
+              "points": 13.33,
+              "basePoints": 10,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Tweezer",
+              "confidence": 4,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "You Enjoy Myself",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": true,
+              "points": 12,
+              "basePoints": 12,
+              "bonuses": {
+                "set": 2,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Slave to the Traffic Light",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Run Like an Antelope",
+              "confidence": 4,
+              "set": "Encore",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            }
+          ]
+        },
+        "2": {
+          "points": 88,
+          "correct": 6,
+          "total": 11,
+          "predictions": [
+            {
+              "song": "Mike's Song",
+              "confidence": 4,
+              "set": "Set1",
+              "correct": true,
+              "points": 13.33,
+              "basePoints": 10,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Weekapaug Groove",
+              "confidence": 4,
+              "set": "Set1",
+              "correct": true,
+              "points": 13.33,
+              "basePoints": 10,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Divided Sky",
+              "confidence": 4,
+              "set": "Set1",
+              "correct": true,
+              "points": 16,
+              "basePoints": 12,
+              "bonuses": {
+                "set": 2,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Free",
+              "confidence": 4,
+              "set": "Set1",
+              "correct": true,
+              "points": 20,
+              "basePoints": 15,
+              "bonuses": {
+                "set": 2,
+                "opener": 3,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Stash",
+              "confidence": 3,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Carini",
+              "confidence": 4,
+              "set": "Set2",
+              "correct": true,
+              "points": 13.33,
+              "basePoints": 10,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Light",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": true,
+              "points": 12,
+              "basePoints": 12,
+              "bonuses": {
+                "set": 2,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Sand",
+              "confidence": 4,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Golden Age",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "First Tube",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Possum",
+              "confidence": 3,
+              "set": "Encore",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            }
+          ]
+        },
+        "3": {
+          "points": 37,
+          "correct": 3,
+          "total": 11,
+          "predictions": [
+            {
+              "song": "Buried Alive",
+              "confidence": 3,
+              "set": "Set1",
+              "correct": true,
+              "points": 15,
+              "basePoints": 15,
+              "bonuses": {
+                "set": 2,
+                "opener": 3,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Wolfman's Brother",
+              "confidence": 3,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Fluffhead",
+              "confidence": 3,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Sigma Oasis",
+              "confidence": 3,
+              "set": "Set1",
+              "correct": true,
+              "points": 12,
+              "basePoints": 12,
+              "bonuses": {
+                "set": 2,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Blaze On",
+              "confidence": 3,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Fuego",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Tweezer Reprise",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": true,
+              "points": 10,
+              "basePoints": 10,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Theme from the Bottom",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Piper",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Character Zero",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Good Times Bad Times",
+              "confidence": 3,
+              "set": "Encore",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            }
+          ]
+        },
+        "4": {
+          "points": 35.33,
+          "correct": 3,
+          "total": 8,
+          "predictions": [
+            {
+              "song": "Chalk Dust Torture",
+              "confidence": 4,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Stash",
+              "confidence": 4,
+              "set": "Set2",
+              "correct": true,
+              "points": 13.33,
+              "basePoints": 10,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Slave to the Traffic Light",
+              "confidence": 4,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Possum",
+              "confidence": 3,
+              "set": "Set1",
+              "correct": true,
+              "points": 10,
+              "basePoints": 10,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Julius",
+              "confidence": 3,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Piper",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Golden Age",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": true,
+              "points": 12,
+              "basePoints": 12,
+              "bonuses": {
+                "set": 2,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Character Zero",
+              "confidence": 3,
+              "set": "Encore",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            }
+          ]
+        },
+        "5": {
+          "points": 0,
+          "correct": 0,
+          "total": 8,
+          "predictions": [
+            {
+              "song": "Fluffhead",
+              "confidence": 4,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Sand",
+              "confidence": 4,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Blaze On",
+              "confidence": 3,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Fuego",
+              "confidence": 3,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Architect",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Ruby Waves",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "First Tube",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Good Times Bad Times",
+              "confidence": 3,
+              "set": "Encore",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            }
+          ]
+        },
+        "6": {
+          "points": 0,
+          "correct": 0,
+          "total": 8,
+          "predictions": [
+            {
+              "song": "Run Like an Antelope",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Undermind",
+              "confidence": 3,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Plasma",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Sample in a Jar",
+              "confidence": 3,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Wolfman's Brother",
+              "confidence": 2,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Boogie On Reggae Woman",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Fee",
+              "confidence": 2,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Cavern",
+              "confidence": 3,
+              "set": "Encore",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            }
+          ]
+        },
+        "7": {
+          "points": 0,
+          "correct": 0,
+          "total": 9,
+          "predictions": [
+            {
+              "song": "Fluffhead",
+              "confidence": 4,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Chalk Dust Torture",
+              "confidence": 4,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Julius",
+              "confidence": 3,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Undermind",
+              "confidence": 3,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Sand",
+              "confidence": 4,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Piper",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Ruby Waves",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Character Zero",
+              "confidence": 3,
+              "set": "Encore",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            },
+            {
+              "song": "Good Times Bad Times",
+              "confidence": 3,
+              "set": "Encore",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": true
+            }
+          ]
+        },
+        "8": {
+          "points": 0,
+          "correct": 0,
+          "total": 8,
+          "predictions": [
+            {
+              "song": "Sample in a Jar",
+              "confidence": 3,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": false
+            },
+            {
+              "song": "Wolfman's Brother",
+              "confidence": 3,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": false
+            },
+            {
+              "song": "Guelah Papyrus",
+              "confidence": 3,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": false
+            },
+            {
+              "song": "Slave to the Traffic Light",
+              "confidence": 4,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": false
+            },
+            {
+              "song": "Boogie On Reggae Woman",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": false
+            },
+            {
+              "song": "Plasma",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": false
+            },
+            {
+              "song": "Harry Hood",
+              "confidence": 4,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": false
+            },
+            {
+              "song": "Cavern",
+              "confidence": 3,
+              "set": "Encore",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": false
+            }
+          ]
+        },
+        "9": {
+          "points": 0,
+          "correct": 0,
+          "total": 8,
+          "predictions": [
+            {
+              "song": "Blaze On",
+              "confidence": 3,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": false
+            },
+            {
+              "song": "Stash",
+              "confidence": 4,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": false
+            },
+            {
+              "song": "Lawn Boy",
+              "confidence": 3,
+              "set": "Set1",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": false
+            },
+            {
+              "song": "Fuego",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": false
+            },
+            {
+              "song": "Roses Are Free",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": false
+            },
+            {
+              "song": "Drowned",
+              "confidence": 3,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": false
+            },
+            {
+              "song": "Run Like an Antelope",
+              "confidence": 4,
+              "set": "Set2",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": false
+            },
+            {
+              "song": "First Tube",
+              "confidence": 3,
+              "set": "Encore",
+              "correct": false,
+              "points": 0,
+              "basePoints": 0,
+              "bonuses": {
+                "set": 0,
+                "opener": 0,
+                "closer": 0,
+                "encore": 0
+              },
+              "hasActual": false
+            }
+          ]
+        }
+      },
+      "weekend3Bonus": null
+    },
+    {
       "model": "grok",
-      "totalPoints": 138.67,
-      "correctCount": 10,
+      "totalPoints": 172,
+      "correctCount": 12,
       "totalPredictions": 93,
-      "correctPercent": 10.75,
+      "correctPercent": 12.9,
       "byWeekend": {
         "1": {
           "points": 112,
@@ -2899,8 +2899,8 @@
           "total": 24
         },
         "3": {
-          "points": 0,
-          "correct": 0,
+          "points": 33.33,
+          "correct": 2,
           "total": 25
         }
       },
@@ -3968,8 +3968,8 @@
           ]
         },
         "7": {
-          "points": 0,
-          "correct": 0,
+          "points": 33.33,
+          "correct": 2,
           "total": 9,
           "predictions": [
             {
@@ -3985,7 +3985,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "David Bowie",
@@ -4000,7 +4000,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Back on the Train",
@@ -4015,22 +4015,22 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Prince Caspian",
               "confidence": 4,
               "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
+              "correct": true,
+              "points": 13.33,
+              "basePoints": 10,
               "bonuses": {
                 "set": 0,
                 "opener": 0,
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Sand",
@@ -4045,22 +4045,22 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "A Song I Heard the Ocean Sing",
               "confidence": 4,
               "set": "Set2",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
+              "correct": true,
+              "points": 20,
+              "basePoints": 15,
               "bonuses": {
-                "set": 0,
-                "opener": 0,
+                "set": 2,
+                "opener": 3,
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Farmhouse",
@@ -4075,7 +4075,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Fluffhead",
@@ -4090,7 +4090,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Wading in the Velvet Sea",
@@ -4105,7 +4105,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             }
           ]
         },
@@ -4368,10 +4368,10 @@
     },
     {
       "model": "gemini",
-      "totalPoints": 133.33,
-      "correctCount": 8,
+      "totalPoints": 145.33,
+      "correctCount": 9,
       "totalPredictions": 80,
-      "correctPercent": 10,
+      "correctPercent": 11.25,
       "byWeekend": {
         "1": {
           "points": 89.33,
@@ -4384,8 +4384,8 @@
           "total": 24
         },
         "3": {
-          "points": 0,
-          "correct": 0,
+          "points": 12,
+          "correct": 1,
           "total": 27
         }
       },
@@ -5228,8 +5228,8 @@
           ]
         },
         "7": {
-          "points": 0,
-          "correct": 0,
+          "points": 12,
+          "correct": 1,
           "total": 9,
           "predictions": [
             {
@@ -5245,22 +5245,22 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Punch You In The Eye",
               "confidence": 3,
               "set": "Set1",
-              "correct": false,
-              "points": 0,
-              "basePoints": 0,
+              "correct": true,
+              "points": 12,
+              "basePoints": 12,
               "bonuses": {
-                "set": 0,
+                "set": 2,
                 "opener": 0,
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Back on the Train",
@@ -5275,7 +5275,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Sample in a Jar",
@@ -5290,7 +5290,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Sand",
@@ -5305,7 +5305,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Crosseyed and Painless",
@@ -5320,7 +5320,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Pillow Jets",
@@ -5335,7 +5335,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "The Howling",
@@ -5350,7 +5350,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Julius",
@@ -5365,7 +5365,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             }
           ]
         },
@@ -6745,7 +6745,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Stash",
@@ -6760,7 +6760,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Rift",
@@ -6775,7 +6775,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Halley's Comet",
@@ -6790,7 +6790,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Reba",
@@ -6805,7 +6805,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Tweezer",
@@ -6820,7 +6820,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Simple",
@@ -6835,7 +6835,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Ghost",
@@ -6850,7 +6850,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Harry Hood",
@@ -6865,7 +6865,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "First Tube",
@@ -6880,7 +6880,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             }
           ]
         },
@@ -7855,7 +7855,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "David Bowie",
@@ -7870,7 +7870,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Run Like an Antelope",
@@ -7885,7 +7885,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Sand",
@@ -7900,7 +7900,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Meatstick",
@@ -7915,7 +7915,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "Simple",
@@ -7930,7 +7930,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             },
             {
               "song": "First Tube",
@@ -7945,7 +7945,7 @@
                 "closer": 0,
                 "encore": 0
               },
-              "hasActual": false
+              "hasActual": true
             }
           ]
         },
@@ -8216,7 +8216,7 @@
       "showDate": "Apr 30",
       "weekend": 3,
       "phishNetUrl": "https://phish.net/setlists/?d=Apr 30",
-      "scored": false,
+      "scored": true,
       "fetchStatus": "http_error"
     },
     "8": {
