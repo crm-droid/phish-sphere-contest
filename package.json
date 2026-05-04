@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "score": "node scripts/score.js",
-    "generate-prompts": "node scripts/generate-prompts.js"
+    "generate-prompts": "node scripts/generate-prompts.js",
+    "list-songs": "node scripts/list-sphere-songs.js"
   },
   "dependencies": {
     "dotenv": "^17.4.2",

@@ -310,14 +310,28 @@ async function main() {
   const predFiles = getPredictionFiles();
 
   // First pass: read every prediction file into memory, collect unique dates.
+  // Reject any Show_Date that isn't ISO YYYY-MM-DD — phish.net's API only accepts
+  // that format, and a non-ISO date would silently 403 every fetch for that show.
+  const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
   const predRows = []; // { weekend, model, row }
   const dateToShowMeta = new Map(); // date → { showNumber, weekend }
+  const badDateFiles = new Set();
   for (const pf of predFiles) {
     const rows = readCsvFile(pf.path);
     for (const row of rows) {
       const date = row.Show_Date;
       const showNum = parseInt(row.Show_Number, 10);
       if (!date || !Number.isFinite(showNum)) continue;
+      if (!ISO_DATE.test(date)) {
+        if (!badDateFiles.has(pf.file)) {
+          console.warn(
+            `  ⚠ ${pf.file} has non-ISO Show_Date "${date}" — expected YYYY-MM-DD. ` +
+              `Rows with bad dates will be skipped.`
+          );
+          badDateFiles.add(pf.file);
+        }
+        continue;
+      }
       if (!dateToShowMeta.has(date)) {
         dateToShowMeta.set(date, { showNumber: showNum, weekend: pf.weekend });
       }
@@ -325,23 +339,22 @@ async function main() {
     }
   }
 
-  // Second pass: fetch setlists in parallel (small # of shows, API is fine with it).
+  // Second pass: fetch setlists sequentially. phish.net rejects bursty parallel
+  // requests with 403, and there are only ~9 shows so the latency cost is small.
   const uniqueDates = [...dateToShowMeta.keys()];
   if (uniqueDates.length > 0) {
     console.log(`Fetching ${uniqueDates.length} setlist(s) from phish.net...`);
   }
   const actualByShow = {}; // showNumber → index
   const statusByShow = {}; // showNumber → 'ok' | 'no_key' | 'no_show' | ...
-  await Promise.all(
-    uniqueDates.map(async (date) => {
-      const meta = dateToShowMeta.get(date);
-      const { status, data } = await fetchSetlist(date);
-      statusByShow[meta.showNumber] = status;
-      if (status === 'ok' && data) {
-        actualByShow[meta.showNumber] = buildActualIndex(data);
-      }
-    })
-  );
+  for (const date of uniqueDates) {
+    const meta = dateToShowMeta.get(date);
+    const { status, data } = await fetchSetlist(date);
+    statusByShow[meta.showNumber] = status;
+    if (status === 'ok' && data) {
+      actualByShow[meta.showNumber] = buildActualIndex(data);
+    }
+  }
 
   // Third pass: score every prediction.
   const models = {};

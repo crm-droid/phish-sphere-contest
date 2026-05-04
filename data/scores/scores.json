@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T18:59:34.404Z",
+  "generatedAt": "2026-05-04T19:57:45.071Z",
   "leaderboard": [
     {
       "model": "chatgpt",
@@ -8213,25 +8213,25 @@
     },
     "7": {
       "showNumber": 7,
-      "showDate": "Apr 30",
+      "showDate": "2026-04-30",
       "weekend": 3,
-      "phishNetUrl": "https://phish.net/setlists/?d=Apr 30",
+      "phishNetUrl": "https://phish.net/setlists/?d=2026-04-30",
       "scored": true,
-      "fetchStatus": "http_error"
+      "fetchStatus": "ok"
     },
     "8": {
       "showNumber": 8,
-      "showDate": "May 1",
+      "showDate": "2026-05-01",
       "weekend": 3,
-      "phishNetUrl": "https://phish.net/setlists/?d=May 1",
+      "phishNetUrl": "https://phish.net/setlists/?d=2026-05-01",
       "scored": true,
       "fetchStatus": "ok"
     },
     "9": {
       "showNumber": 9,
-      "showDate": "May 2",
+      "showDate": "2026-05-02",
       "weekend": 3,
-      "phishNetUrl": "https://phish.net/setlists/?d=May 2",
+      "phishNetUrl": "https://phish.net/setlists/?d=2026-05-02",
       "scored": true,
       "fetchStatus": "ok"
     }
